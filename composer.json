@@ -1,0 +1,36 @@
+{
+    "name": "joel-sousa/mydotenv",
+    "description": "DotEnv descomplicado!",
+    "keywords": [
+        "php",
+        "laravel",
+        "lumen",
+        "codeigniter",
+        "configuration",
+        "config",
+        "composer",
+        "env",
+        ".env",
+        "dotenv",
+        "environment"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel Sousa",
+            "email": "softmock@gmail.com",
+            "homepage": "https://github.com/joel-sousa"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/DotEnv.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
